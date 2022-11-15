@@ -10,7 +10,7 @@ this is a script menu it does 3 diffrent things
 0.exit
 end
 
-read -p "please select a option from above [0-3]: " EXIT
+        read -p "please select a option from above [0-3]: " EXIT
         if [ $EXIT = 1 ]; then
                 ifconfig
                 read -p "enter to continue"
