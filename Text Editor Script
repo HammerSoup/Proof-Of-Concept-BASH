@@ -10,7 +10,7 @@ hello this script is a mini text editor thing i dont know
 0.exit
 endlol
 
-read -p " alright select a option [0-3]: " EXIT
+        read -p " alright select a option [0-3]: " EXIT
         if [[ "$EXIT" = 1 ]]; then
                 clear
                 read -p " ok what would you like to name this text file: " filename
