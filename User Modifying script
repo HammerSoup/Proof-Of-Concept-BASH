@@ -21,8 +21,8 @@ hello guy how would you like to modify today.
 0.exit
 	_end1_
 
-read -p "hi please select a option from [0-6]: " EXIT
-echo
+	read -p "hi please select a option from [0-6]: " EXIT
+	echo
 
 #
 # if 1 is selected it will place any userinto the sudo group
@@ -62,7 +62,7 @@ echo
 			read -p "how hard is it to enter yes or no"
 		fi
 		echo
-		read -p "would you also like to set a password [y/n]: " yesorno2
+		read -p "would you also like to set a password [y/n]: " yesorno2	
 		if [[ "$yesorno2" = "y" ]]; then
 			passwd "$username3"
 			echo "ok all done"
