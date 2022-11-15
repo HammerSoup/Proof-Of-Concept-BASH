@@ -5,22 +5,22 @@ select option in pizza gameboy computers tv EXIT ;do
         clear
         case $option in
                 pizza)
-                        echo "$option is not a option";;
+                echo "$option is not a option";;
 
                 gameboy)
-                        echo "$option is a option";;
+                echo "$option is a option";;
 
                 computers)
-                        echo "$option is a option";;
+                echo "$option is a option";;
 
                 tv)
-                        echo "$option is a option";;
+                echo "$option is a option";;
 
                 EXIT)
-                        break;;
+                break;;
 
                 *)
-                        echo "not gunna happen bud";;
+                echo "not gunna happen bud";;
         esac
 done
 
