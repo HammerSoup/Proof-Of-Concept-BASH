@@ -11,7 +11,7 @@ hello this script will do things
 5.status of tor
 0.exit
         _END1_
-read -p "please enter one of the options below [0-5]: " EXIT
+        read -p "please enter one of the options below [0-5]: " EXIT
         if [[ "$EXIT" = 1 ]]; then
                 apt-get install tor
                 read -p "enter to continue"
